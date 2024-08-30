@@ -311,7 +311,7 @@ birth-rate
 birth-rate
 0
 10
-0.016
+0.009
 0.01
 1
 NIL
@@ -343,7 +343,7 @@ life-expectancy
 life-expectancy
 1
 100
-77.3
+80.9
 0.1
 1
 NIL
@@ -447,7 +447,7 @@ mean-years-schooling
 mean-years-schooling
 0
 20
-8.6
+12.6
 0.1
 1
 NIL
@@ -480,7 +480,7 @@ ICTuse
 ICTuse
 0
 150
-79.0
+1.0
 1
 1
 NIL
@@ -495,7 +495,7 @@ Research&Development
 Research&Development
 0
 150
-42.0
+8.0
 1
 1
 NIL
@@ -1494,6 +1494,27 @@ NetLogo 6.2.2
     </enumeratedValueSet>
     <enumeratedValueSet variable="birth-rate">
       <value value="0.017"/>
+    </enumeratedValueSet>
+  </experiment>
+  <experiment name="Denmark" repetitions="30" runMetricsEveryStep="true">
+    <setup>setup</setup>
+    <go>go</go>
+    <timeLimit steps="50"/>
+    <metric>globalind</metric>
+    <enumeratedValueSet variable="ICTuse">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="Research&amp;Development">
+      <value value="8"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="life-expectancy">
+      <value value="80.9"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mean-years-schooling">
+      <value value="12.6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="birth-rate">
+      <value value="0.009"/>
     </enumeratedValueSet>
   </experiment>
 </experiments>
